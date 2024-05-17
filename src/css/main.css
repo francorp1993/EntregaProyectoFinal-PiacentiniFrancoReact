@@ -9,7 +9,7 @@
 
 
 #root{
-    background-image: url(../img/etre1.1_1694304991977.jpeg);
+    background-image: url(../img/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed; 
@@ -26,7 +26,7 @@
 
 .navbar{
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.504);
+    background-color: rgba(0, 0, 0, 0.913);
 }
 
 .container-fluid{
@@ -37,18 +37,39 @@
     margin-left: 20px;
 }
 
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(255, 234, 0);
+}
+
 .nav-item{
-    text-decoration: none;
-    color: rgb(0, 255, 4);
-    margin: 10px;
+    color: white;
 }
 
 .nav-item:hover{
-    color: rgb(2, 72, 3);
+    color: rgb(255, 234, 0);
 }
 
-.items {
-    min-height: 35vh;
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.nav-opcion{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.nav-opcion:hover{
+    color: rgb(255, 234, 0);
+}
+
+
+.productos-container{
+    min-height: 40vh;
     display: grid;
     place-items: center;
     align-items: center;
@@ -68,21 +89,15 @@
 
 .lupa{
     color: white;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
 }
 
-.saludo{
+.greeting{
     font-weight: 900;
-    font-size: 35px;
+    font-size: 45px;
     font-family: "Nabla", sans-serif;
-    text-shadow: -7px 2px 6px rgba(0,0,0,1);
+    text-shadow: -7px 2px 4px rgb(0, 0, 0);
 }
 
 
-.saludo-nombre{
-    margin-left: 5px;
-    font-size: 35px;
-    font-family: "Nabla", sans-serif;
-    text-shadow: -7px 2px 6px rgba(0,0,0,1);
-}
