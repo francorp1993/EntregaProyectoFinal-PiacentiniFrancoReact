@@ -67,15 +67,6 @@
     color: rgb(255, 234, 0);
 }
 
-
-.productos-container{
-    min-height: 40vh;
-    display: grid;
-    place-items: center;
-    align-items: center;
-    justify-content: center;
-}
-
 .carrito{
     margin-right: 20px;
     padding-left: 5px;
@@ -94,6 +85,11 @@
 }
 
 .greeting{
+    min-height: 40vh;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
     font-weight: 900;
     font-size: 45px;
     font-family: "Nabla", sans-serif;

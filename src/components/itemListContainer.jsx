@@ -1,10 +1,16 @@
 import React from 'react'
 
 export const ItemListContainer = () => {
+
+    function Saludo ({greeting}) {
+        return <>
+                    <h1 className='greeting'> {greeting}</h1>
+            </>;
+    }
+
     return (
-        <div className='productos-container'>
-            <h1 className='greeting'>Productos</h1> 
-        </div>
+        <Saludo greeting = "Productos"/>
     )
 }
+
 
