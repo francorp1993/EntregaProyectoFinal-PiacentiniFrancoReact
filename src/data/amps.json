@@ -1,0 +1,425 @@
+[
+    {
+        "id": 1,
+        "precio":"USD1000",
+        "modelo": "Champion 20",
+        "tamaños": [
+            "10W",
+            "20W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Reverb",
+                "Delay",
+                "Chorus"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "AUX In"
+            ],
+            "fotos": {
+                "foto1": "../img/amplificadores/fender-champion-20.jpeg",
+                "foto2": "../img/amplificadores/fender-champion-20(2).jpeg",
+                "foto3": "../img/amplificadores/fender-champion-20(3).jpeg"
+            },
+            "categoria": {
+                "id": "fender",
+                "nombre": "Fender"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "precio":"USD1400",
+        "modelo": "Mustang GT 40",
+        "tamaños": [
+            "20W",
+            "40W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Reverb",
+                "Delay",
+                "Phaser"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "Bluetooth"
+            ],
+            "fotos": {
+                "foto1": "../img/amplificadores/fender-mustang-40.jpeg",
+                "foto2": "../img/amplificadores/fender-mustang-40(2).jpeg",
+                "foto3": "../img/amplificadores/fender-mustang-40(3).jpeg",
+                "foto4": "../img/amplificadores/fender-mustang-40(4).jpeg"
+            }
+        },
+        "categoria": {
+            "id": "fender",
+            "nombre": "Fender"
+        }
+    },
+    {
+        "id": 3,
+        "precio":"USD1300",
+        "modelo": "Blues Junior IV",
+        "tamaños": [
+            "15W",
+            "30W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Spring Reverb"
+            ],
+            "entradas": [
+                "Guitar Input"
+            ],
+            "fotos": {
+                "foto1": "../img/amplificadores/fender-blues-junior(1).jpeg",
+                "foto2": "../img/amplificadores/fender-blues-junior(2).webp",
+                "foto3": "../img/amplificadores/fender-blues-junior(3).webp",
+                "foto4": "../img/amplificadores/fender-blues-junior(4).webp"
+            }
+        },
+        "categoria": {
+            "id": "fender",
+            "nombre": "Fender"
+        }
+    },
+    {
+        "id": 4,
+        "precio":"USD1000",
+        "modelo": "Cube-10GX",
+        "tamaños": [
+            "10W",
+            "20W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Reverb",
+                "Delay",
+                "Chorus"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "AUX In"
+            ],
+            "foto1": "../img/amplificadores/roland-cube-10gx(1).jpeg",
+            "foto2": "../img/amplificadores/roland-cube-10gx(2).jpeg",
+            "foto3": "../img/amplificadores/roland-cube-10gx(3).jpeg",
+            "foto4": "../img/amplificadores/roland-cube-10gx(4).jpg"
+        },
+        "categoria": {
+            "id": "roland",
+            "nombre": "Roland"
+        }
+    },
+    {
+        "id": 5,
+        "precio":"USD1500",
+        "modelo": "Blues Cube Hot",
+        "tamaños": [
+            "30W",
+            "60W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Boost",
+                "Tone"
+            ],
+            "entradas": [
+                "Guitar Input"
+            ],
+            "foto1": "../img/amplificadores/roland-blues-cube-hot(1).jpeg",
+            "foto2": "../img/amplificadores/roland-blues-cube-hot(2).webp",
+            "foto3": "../img/amplificadores/roland-blues-cube-hot(3).jpeg",
+            "foto4": "../img/amplificadores/roland-blues-cube-hot(4).jpeg"
+        },
+        "categoria": {
+            "id": "roland",
+            "nombre": "Roland"
+        }
+    },
+    {
+        "id": 6,
+        "precio":"USD1600",
+        "modelo": "JC-120",
+        "tamaños": [
+            "40W",
+            "1200W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Chorus",
+                "Reverb"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "Stereo Input"
+            ],
+            "foto1": "../img/amplificadores/roland-jc-120-(2).jpeg",
+            "foto2": "../img/amplificadores/roland-jc-120(1).jpeg",
+            "foto3": "../img/amplificadores/roland-jc-120(3).jpeg",
+            "foto4": "../img/amplificadores/roland-jc-120(4).jpeg"
+        },
+        "categoria": {
+            "id": "roland",
+            "nombre": "Roland"
+        }
+    },
+    {
+        "id": 7,
+        "precio":"USD1700",
+        "modelo": "AC15C1",
+        "tamaños": [
+            "15W",
+            "30W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Reverb",
+                "Tremolo"
+            ],
+            "entradas": [
+                "Guitar Input"
+            ],
+            "foto1": "../img/amplificadores/vox-ac15c1(1).jpg",
+            "foto2": "../img/amplificadores/vox-ac15c1(2).webp",
+            "foto3": "../img/amplificadores/vox-ac15c1(3).webp",
+            "foto4": "../img/amplificadores/vox-ac15c1(4).webp"
+        },
+        "categoria": {
+            "id": "vox",
+            "nombre": "Vox"
+        }
+    },
+    {
+        "id": 8,
+        "precio":"USD1600",
+        "modelo": "VT20X",
+        "tamaños": [
+            "20W",
+            "40W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Modulation",
+                "Delay",
+                "Reverb"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "AUX In"
+            ],
+            "foto1": "../img/amplificadores/vox-vt20x(1).webp",
+            "foto2": "../img/amplificadores/vox-vt20x(2).jpeg",
+            "foto3": "../img/amplificadores/vox-vt20x(3).jpeg",
+            "foto4": "../img/amplificadores/vox-vt20x(4).jpeg"
+        },
+        "categoria": {
+            "id": "vox",
+            "nombre": "Vox"
+        }
+    },
+    {
+        "id": 9,
+        "precio":"USD1500",
+        "modelo": "Mini5 Rhythm",
+        "tamaños": [
+            "5W",
+            "10W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Modulation",
+                "Delay",
+                "Reverb"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "Microphone Input"
+            ],
+            "foto1": "../img/amplificadores/vox-mini5-rhytim(1).webp",
+            "foto2": "../img/amplificadores/vox-mini5-rhytim(2).jpeg",
+            "foto3": "../img/amplificadores/vox-mini5-rhytim(3).jpeg",
+            "foto4": "../img/amplificadores/vox-mini5-rhytim(4).jpeg"
+        },
+        "categoria": {
+            "id": "vox",
+            "nombre": "Vox"
+        }
+    },
+    {
+        "id": 10,
+        "precio":"USD1800",
+        "modelo": "Rocker 15",
+        "tamaños": [
+            "15W",
+            "30W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Natural Channel",
+                "Dirty Channel"
+            ],
+            "entradas": [
+                "Guitar Input"
+            ],
+            "foto1": "../img/amplificadores/orange-rocker-15(1).webp",
+            "foto2": "../img/amplificadores/orange-rocker-15(2).webp",
+            "foto3": "../img/amplificadores/orange-rocker-15(3).webp",
+            "foto4": "../img/amplificadores/orange-rocker-15(4).webp"
+        },
+        "categoria": {
+            "id": "orange",
+            "nombre": "Orange"
+        }
+    },
+    {
+        "id": 11,
+        "precio":"USD1900",
+        "modelo": "Crush 20",
+        "tamaños": [
+            "20W",
+            "40W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Overdrive"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "AUX In"
+            ],
+            "foto1": "../img/amplificadores/orange-crush-20(1).jpeg",
+            "foto2": "../img/amplificadores/orange-crush-20(2alreves).webp",
+            "foto3": "../img/amplificadores/orange-crush-20(3).jpg",
+            "foto4": "../img/amplificadores/orange-crush-20(4).jpeg"
+        },
+        "categoria": {
+            "id": "orange",
+            "nombre": "Orange"
+        }
+    },
+    {
+        "id": 12,
+        "precio":"USD1700",
+        "modelo": "Micro Terror",
+        "tamaños": [
+            "20W",
+            "50W"
+        ],
+        "características": {
+            "tipo": "Cabezal",
+            "efectos": [
+                "Gain",
+                "Tone",
+                "Volume"
+            ],
+            "entradas": [
+                "Guitar Input"
+            ],
+            "foto1": "../img/amplificadores/orange-micro-terror(1).jpeg",
+            "foto2": "../img/amplificadores/orange-micro-terror(2alreves).jpeg",
+            "foto3": "../img/amplificadores/orange-micro-terror(2).jpeg",
+            "foto4": "../img/amplificadores/orange-micro-terror(3).jpeg"
+        },
+        "categoria": {
+            "id": "orange",
+            "nombre": "Orange"
+        }
+    },
+    {
+        "id": 13,
+        "precio":"USD1400",
+        "modelo": "MG10G",
+        "tamaños": [
+            "10W",
+            "20W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Clean",
+                "Overdrive"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "AUX In"
+            ],
+            "foto1": "../img/amplificadores/marshall-mg10g(1).webp",
+            "foto2": "../img/amplificadores/marshall-mg10g(2).jpeg",
+            "foto3": "../img/amplificadores/marshall-mg10g(3).webp",
+            "foto4": "../img/amplificadores/marshall-mg10g(4).jpeg"
+        },
+        "categoria": {
+            "id": "marshall",
+            "nombre": "Marshall"
+        }
+    },
+    {
+        "id": 14,
+        "precio":"USD2000",
+        "modelo": "Code 25",
+        "tamaños": [
+            "25W",
+            "50W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Modulation",
+                "Delay",
+                "Reverb"
+            ],
+            "entradas": [
+                "Guitar Input",
+                "Bluetooth"
+            ],
+            "foto1": "../img/amplificadores/marshall-code-25(1).webp",
+            "foto2": "../img/amplificadores/marshall-code-25(2).webp",
+            "foto3": "../img/amplificadores/marshall-code-25(3).webp",
+            "foto4": "../img/amplificadores/marshall-code-25(4).webp"
+        },
+        "categoria": {
+            "id": "marshall",
+            "nombre": "Marshall"
+        }
+    },
+    {
+        "id": 15,
+        "precio":"USD2200",
+        "modelo": "DSL40CR",
+        "tamaños": [
+            "40W",
+            "80W"
+        ],
+        "características": {
+            "tipo": "Combo",
+            "efectos": [
+                "Reverb"
+            ],
+            "entradas": [
+                "Guitar Input"
+            ],
+            "foto1": "../img/amplificadores/marshall-dsl40cr(1).jpeg",
+            "foto2": "../img/amplificadores/marshall-dsl40cr(2).jpeg",
+            "foto3": "../img/amplificadores/marshall-dsl40cr(3).jpeg",
+            "foto4": "../img/amplificadores/marshall-dsl40cr(4).jpeg"
+        },
+        "categoria": {
+            "id": "marshall",
+            "nombre": "Marshall"
+        }
+    }
+]

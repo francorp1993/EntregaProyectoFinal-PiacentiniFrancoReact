@@ -1,0 +1,22 @@
+[
+    {
+        "id": "fender",
+        "nombre": "Fender"
+    },
+    {
+        "id": "roland",
+        "nombre": "Roland"
+    },
+    {
+        "id": "vox",
+        "nombre": "Vox"
+    },
+    {
+        "id": "orange",
+        "nombre": "Orange"
+    }, 
+    {
+        "id": "marshall",
+        "nombre": "Marshall"
+    }
+]
