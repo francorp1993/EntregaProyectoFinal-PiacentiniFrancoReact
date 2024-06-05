@@ -8,11 +8,12 @@ import './css/main.css'
 
 function App() {
 
-  
+  const greeting = "Bienvenidos";
+
   return (
     <>
       <Encabezado />
-      <ItemListContainer />
+      <ItemListContainer saludo = {greeting}/>
     </>
   )
 }

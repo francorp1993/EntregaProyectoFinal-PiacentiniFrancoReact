@@ -1,15 +1,11 @@
 import React from 'react'
 
-export const ItemListContainer = () => {
+export const ItemListContainer = (props) => {
 
-    function Saludo ({greeting}) {
-        return <>
-                    <h1 className='greeting'> {greeting}</h1>
-            </>;
-    }
+const { saludo } = props;
 
     return (
-        <Saludo greeting = "Productos"/>
+        <h1 className='greeting'>{saludo}</h1>
     )
 }
 
