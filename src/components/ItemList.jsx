@@ -4,7 +4,7 @@ import { Item } from './Item'
 export const ItemList = ({ amplificadores }) => {
 
     return (
-        <div className="Items-grilla">
+        <div className="items-grilla">
             {
                 amplificadores.length > 0 ?
                 amplificadores.map(amp => {
@@ -15,3 +15,6 @@ export const ItemList = ({ amplificadores }) => {
         </div>
     )
 }
+
+export default ItemList
+

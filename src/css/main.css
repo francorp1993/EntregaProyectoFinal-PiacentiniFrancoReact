@@ -8,12 +8,12 @@
 }
 
 
-#root{
+body{
     background-image: url(../img/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed; 
-    height: 150vh;
+    height: auto;
 }
 
 .header {
@@ -84,16 +84,94 @@
     height: 20px;
 }
 
-.greeting{
-    min-height: 40vh;
+
+.item-list-contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.items-grilla {
+    margin-top: 2rem;
     display: grid;
-    place-items: center;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.item {
+    display: flex;
+    flex-direction: column; 
     justify-content: center;
-    font-weight: 900;
-    font-size: 45px;
-    font-family: "Nabla", sans-serif;
-    text-shadow: -7px 2px 4px rgb(0, 0, 0);
+    align-items: center; 
+    color: white;
+
+    border-radius: .5rem;
+    padding: 1rem;
+    height: 100%;
 }
 
 
+.item:hover{
+background-color: rgba(0, 0, 0, 0.682);
+}
+
+.img {
+    width: auto;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.img:hover{
+    width: auto;
+    height: 270px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.info-amp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.info-amp h2 {
+    color: rgb(255, 191, 0);
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: cemter;
+    background-color: rgba(255, 255, 255, 0.322);
+    
+}
+.precio{
+    color: rgb(100, 232, 85);
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-size: 20px ;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.336);
+}
+
+
+.data{
+    color: rgb(254, 122, 122);
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px  1px 0 #000,
+    1px  1px 0 #000;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.333);
+}
