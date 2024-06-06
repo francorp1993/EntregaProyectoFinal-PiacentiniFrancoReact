@@ -19,11 +19,9 @@ export const NavBar = () => {
                                 Productos
                             </a>
                             <ul className="dropdown-menu">
-                                <li><a className="nav-opcion" href="#">Audio y Sonido</a></li>
                                 <li><a className="nav-opcion" href="#">Amplificadores</a></li>
                                 <li><a className="nav-opcion" href="#">Instrumentos</a></li>
                                 <li><a className="nav-opcion" href="#">Producción</a></li>
-                                <li><a className="nav-opcion" href="#">Grabación</a></li>
                             </ul>
                         </li>
                     </ul>
