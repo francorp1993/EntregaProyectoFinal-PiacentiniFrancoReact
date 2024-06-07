@@ -18,6 +18,7 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "fender",
             "nombre": "Fender"
@@ -42,6 +43,7 @@
             "Bluetooth"
         ],
         "foto": "src/img/img-amplificadores/fender-mustang-40.png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "fender",
             "nombre": "Fender"
@@ -63,6 +65,7 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/fender-blues-junior(1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "fender",
             "nombre": "Fender"
@@ -87,6 +90,7 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/roland-cube-10gx(1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "roland",
             "nombre": "Roland"
@@ -109,6 +113,7 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/roland-blues-cube-hot (1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "roland",
             "nombre": "Roland"
@@ -132,6 +137,7 @@
             "Stereo Input"
         ],
         "foto": "src/img/img-amplificadores/roland-jc-120(1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "roland",
             "nombre": "Roland"
@@ -154,6 +160,7 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/vox-ac.png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "vox",
             "nombre": "Vox"
@@ -178,6 +185,7 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/vox-vt20x(1).webp",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "vox",
             "nombre": "Vox"
@@ -202,6 +210,7 @@
             "Microphone Input"
         ],
         "foto": "src/img/img-amplificadores/vox-mini-5-rhytim(1).webp",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "vox",
             "nombre": "Vox"
@@ -224,6 +233,7 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/orange-rocker-15(1) copia.png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "orange",
             "nombre": "Orange"
@@ -246,6 +256,7 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/orange-crush-20(1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "orange",
             "nombre": "Orange"
@@ -269,6 +280,7 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/orange-micro-terror(1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "orange",
             "nombre": "Orange"
@@ -292,6 +304,7 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/marshall-mg10g(1) copia.png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "marshall",
             "nombre": "Marshall"
@@ -315,7 +328,8 @@
             "Guitar Input",
             "Bluetooth"
         ],
-        "foto": "src/img/img-amplificadores/marshall-code-25(1) copia.png",
+        "foto": "src/img/img-amplificadores/marshall-code-25(1)copia.png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "marshall",
             "nombre": "Marshall"
@@ -337,6 +351,7 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/marshall-dsl40cr(1).png",
+        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
             "id": "marshall",
             "nombre": "Marshall"
