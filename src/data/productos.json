@@ -18,12 +18,12 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/fender-champion-20(2).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "fender",
+            "id": "amp",
             "nombre": "Fender"
         }
-        },
+    },
     {
         "id": 2,
         "precio": "USD 1400",
@@ -43,9 +43,9 @@
             "Bluetooth"
         ],
         "foto": "src/img/img-amplificadores/fender-mustang-40.png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "fender",
+            "id": "amp",
             "nombre": "Fender"
         }
     },
@@ -65,9 +65,9 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/fender-blues-junior(1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "fender",
+            "id": "amp",
             "nombre": "Fender"
         }
     },
@@ -90,9 +90,9 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/roland-cube-10gx(1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "roland",
+            "id": "amp",
             "nombre": "Roland"
         }
     },
@@ -113,9 +113,9 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/roland-blues-cube-hot (1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "roland",
+            "id": "amp",
             "nombre": "Roland"
         }
     },
@@ -137,9 +137,9 @@
             "Stereo Input"
         ],
         "foto": "src/img/img-amplificadores/roland-jc-120(1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "roland",
+            "id": "amp",
             "nombre": "Roland"
         }
     },
@@ -160,9 +160,9 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/vox-ac.png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "vox",
+            "id": "amp",
             "nombre": "Vox"
         }
     },
@@ -185,9 +185,9 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/vox-vt20x(1).webp",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "vox",
+            "id": "amp",
             "nombre": "Vox"
         }
     },
@@ -210,9 +210,9 @@
             "Microphone Input"
         ],
         "foto": "src/img/img-amplificadores/vox-mini-5-rhytim(1).webp",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "vox",
+            "id": "amp",
             "nombre": "Vox"
         }
     },
@@ -233,9 +233,9 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/orange-rocker-15(1) copia.png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "orange",
+            "id": "amp",
             "nombre": "Orange"
         }
     },
@@ -256,9 +256,9 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/orange-crush-20(1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "orange",
+            "id": "amp",
             "nombre": "Orange"
         }
     },
@@ -280,9 +280,9 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/orange-micro-terror(1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "orange",
+            "id": "amp",
             "nombre": "Orange"
         }
     },
@@ -304,9 +304,9 @@
             "AUX In"
         ],
         "foto": "src/img/img-amplificadores/marshall-mg10g(1) copia.png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "marshall",
+            "id": "amp",
             "nombre": "Marshall"
         }
     },
@@ -329,9 +329,9 @@
             "Bluetooth"
         ],
         "foto": "src/img/img-amplificadores/marshall-code-25(1)copia.png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "marshall",
+            "id": "amp",
             "nombre": "Marshall"
         }
     },
@@ -351,10 +351,188 @@
             "Guitar Input"
         ],
         "foto": "src/img/img-amplificadores/marshall-dsl40cr(1).png",
-        "foto2":"src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
         "categoria": {
-            "id": "marshall",
+            "id": "amp",
             "nombre": "Marshall"
+        }
+    },
+    {
+        "id": 16,
+        "precio": "USD 1500",
+        "modelo": "Stratocaster",
+        "pastillas": [
+            "Single Coil"
+        ],
+        "material_construccion": "Alder body, Maple neck",
+        "foto": "src/img/img-guitarras/fender-stratocaster.png",
+        "categoria": {
+            "id": "guitarra",
+            "marca": "Fender"
+        }
+    },
+    {
+        "id": 17,
+        "precio": "USD 1600",
+        "modelo": "Telecaster",
+        "pastillas": [
+            "Single Coil"
+        ],
+        "material_construccion": "Ash body, Maple neck",
+        "foto": "src/img/img-guitarras/fender-telecaster.png",
+        "categoria": {
+            "id": "guitarra",
+            "marca": "Fender"
+        }
+    },
+    {
+        "id": 18,
+        "precio": "USD 2500",
+        "modelo": "SG",
+        "pastillas": [
+            "Humbucker"
+        ],
+        "material_construccion": "Mahogany body, Mahogany neck",
+        "foto": "src/img/img-guitarras/gibson-sg.png",
+        "categoria": {
+            "marca": "Gibson",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 19,
+        "precio": "USD 3000",
+        "modelo": "ES-335",
+        "pastillas": [
+            "Humbucker"
+        ],
+        "material_construccion": "Maple/Poplar/Maple body, Mahogany neck",
+        "foto": "src/img/img-guitarras/gibson-es-335.png",
+        "categoria": {
+            "marca": "Gibson",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 20,
+        "precio": "USD 800",
+        "modelo": "Pacifica",
+        "pastillas": [
+            "Single Coil",
+            "Humbucker"
+        ],
+        "material_construccion": "Alder body, Maple neck",
+        "foto": "src/img/img-guitarras/yamaha-pacifica.png",
+        "categoria": {
+            "marca": "Yamaha",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 21,
+        "precio": "USD 900",
+        "modelo": "SG2",
+        "pastillas": [
+            "Single Coil"
+        ],
+        "material_construccion": "Alder body, Maple neck",
+        "foto": "src/img/img-guitarras/yamaha-sg2.png",
+        "categoria": {
+            "marca": "Yamaha",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 22,
+        "precio": "USD 1200",
+        "modelo": "Revstar",
+        "pastillas": [
+            "Humbucker"
+        ],
+        "material_construccion": "Mahogany body, Mahogany neck",
+        "foto": "src/img/img-guitarras/yamaha-revstar.png",
+        "categoria": {
+            "marca": "Yamaha",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 23,
+        "precio": "USD 3500",
+        "modelo": "RE-1",
+        "pastillas": [
+            "Humbucker"
+        ],
+        "material_construccion": "Mahogany body, Maple neck",
+        "foto": "src/img/img-guitarras/baranik-re-1.png",
+        "categoria": {
+            "marca": "Baranik",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 24,
+        "precio": "USD 2000",
+        "modelo": "Jetson Coral",
+        "pastillas": [
+            "Single Coil"
+        ],
+        "material_construccion": "Alder body, Maple neck",
+        "foto": "src/img/img-guitarras/uma-jetson-coral.png",
+        "categoria": {
+            "marca": "Uma",
+            "id": "guitarra"
+        }
+    },
+    {
+        "id": 25,
+        "precio": "USD 100",
+        "modelo": "AT2020",
+        "tipo": "Micrófono de condensador",
+        "caracteristicas": [
+            "Cardioide",
+            "20 Hz - 20 kHz",
+            "144 dB SPL máximo"
+        ],
+        "foto": "src/img/img-produccion/at-2020.png",
+        "foto2": "src/img/img-produccion/at-2020(2).png",
+        "categoria": {
+            "marca": "Audio-Technica",
+            "id": "produccion"
+        }
+    },
+    {
+        "id": 26,
+        "precio": "USD 160",
+        "modelo": "Scarlett 2i2 (4ª Generación)",
+        "tipo": "Interfaz de audio",
+        "caracteristicas": [
+            "2 entradas combo XLR/TRS",
+            "24-bit/192 kHz",
+            "Phantom power",
+            "Compatible con Mac y Windows"
+        ],
+        "foto": "src/img/img-productos/focusrite-scarlett-2i2-4gen.png",
+        "categoria": {
+            "marca": "Focusrite",
+            "id": "produccion"
+        }
+    },
+    {
+        "id": 27,
+        "precio": "USD 150",
+        "modelo": "305P MkIII",
+        "tipo": "Monitor de estudio",
+        "caracteristicas": [
+            "5 pulgadas",
+            "43 Hz - 24 kHz",
+            "112 dB SPL máximo",
+            "Bi-amplificado"
+        ],
+        "foto": "src/img/img-productos/jbl-305p-mk3.png",
+        "categoria": {
+            "marca": "JBL",
+            "id": "produccion"
         }
     }
 ]

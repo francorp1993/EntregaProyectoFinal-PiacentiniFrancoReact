@@ -1,65 +1,61 @@
 import React, { useEffect, useState } from 'react';
-import amps from "../data/amps.json";
-// import categorias from "../data/categorias.json"
+import productos from '../data/productos.json';
+import categorias from '../data/categorias.json';
 import ItemList from './ItemList';
-
-// let categoriaId
+import { useParams } from 'react-router-dom';
 
 export const ItemListContenedor = () => {
+    const { categoryId } = useParams();
+    const [productosFiltrados, setProductosFiltrados] = useState([]);
 
-
-    // let { categoriaId } = useParams();
-    let [amplificadores, setAmplificadores] = useState([]);
-
-
-    // let [titulo, setTitulo] = useState("Nuestros Amplificadores");
-
-
-    const pedirAmps = () => {
+    const pedirProductos = () => {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                resolve(amps);
+                resolve(productos);
             }, 1000);
-        })
-    }
+        });
+    };
 
+    useEffect(() => {
+        pedirProductos()
+            .then((resp) => {
+                if (categoryId) {
+                    setProductosFiltrados(resp.filter((prodRecibidos) => prodRecibidos.categoria.id === categoryId));
+                } else {
+                    setProductosFiltrados(resp);
+                }
+            })
+            .catch((error) => {
+                alert.error("Error al obtener los productos:", error);
+            });
+    }, [categoryId]);
 
-    useEffect (() => {
-        pedirAmps()
-            .then ((resp) =>{
-                setAmplificadores(resp);
-                console.log (amplificadores);
-        })
-    },[]);
+    return (
+        <div className="item-list-contenedor">
+            <ItemList productos={productosFiltrados} />
+        </div>
+    );
+};
 
 
     // useEffect(() => {
 
-    //     pedirAmps()
+    //     pedirProductos()
     //         .then((res) =>{
-    //             setAmplificadores(res);
-    //             console.log(amplificadores);
+    //             setProductos(res);
+    //             console.log(Productos);
     //         } )
     //             if (!categoriaId) {
-    //                 setTitulo("Nuestros Amplificadores");
-    //                 setAmplificadores(res);
+    //                 setTitulo("Nuestros Productos");
+    //                 setProductos(res);
     //             } else {
     //                 setTitulo(categorias.find((cat) => cat.id === categoriaId).nombre);
-    //                 setAmplificadores(res.filter((amp) => amp.categoria.id === categoriaId));
+    //                 setProductos(res.filter((productos) => productos.categoria.id === categoriaId));
     //             }
     //         },[categoriaId]); 
 
 
 
-    return (
-        <div className="item-list-contenedor">
-            {
-            // <h1>{titulo}</h1>
-            <ItemList amplificadores={amplificadores} />
-            }
 
-        </div>
-    )
-}
 
 

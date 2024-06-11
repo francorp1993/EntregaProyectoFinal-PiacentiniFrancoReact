@@ -1,27 +1,53 @@
 import React from 'react';
 import { Carrito } from './Carrito';
+import { NavLink } from 'react-router-dom';
+import categorias from '../../data/categorias.json';
 
 export const NavBar = () => {
+
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#"><img src="/src/img/logo (1).png" alt="Logo" /></a>
+                <a className="navbar-brand" href="/"><img src="/src/img/logo (1).png" alt="Logo" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/index.html">Nosotros</a>
+                            <NavLink
+                                to="/"
+                                className={({ isActive }) =>
+                                    isActive ? "nav-link pag-activa" : "nav-link"
+                                }
+                            >
+                                Inicio
+                            </NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <NavLink
+                                to="/todos"
+                                className={({ isActive }) =>
+                                    isActive ? "nav-link dropdown-toggle pag-activa" : "nav-link dropdown-toggle"
+                                }
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
                                 Productos
-                            </a>
+                            </NavLink>
                             <ul className="dropdown-menu">
-                                <li><a className="nav-opcion" href="#">Amplificadores</a></li>
-                                <li><a className="nav-opcion" href="#">Instrumentos</a></li>
-                                <li><a className="nav-opcion" href="#">Producción</a></li>
+                                {
+                                categorias.map((categoria)=>{
+                                    return(
+                                        <li key={categoria.id}>
+                                        <NavLink to={`category/${categoria.id}`} className={({ isActive }) => isActive ? "nav-opcion pag-activa" : "nav-opcion"}>
+                                        {categoria.nombre}
+                                        </NavLink>
+                                        </li>
+                                    )
+                                })
+                                }
                             </ul>
                         </li>
                     </ul>
@@ -32,9 +58,8 @@ export const NavBar = () => {
                         </button>
                     </form>
                 </div>
-                <Carrito/>
+                <Carrito />
             </div>
         </nav>
     );
 };
-

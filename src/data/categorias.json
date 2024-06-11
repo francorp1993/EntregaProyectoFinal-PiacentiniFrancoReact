@@ -1,22 +1,14 @@
 [
     {
-        "id": "fender",
-        "nombre": "Fender"
+        "id": "amp",
+        "nombre": "Amplificador"
     },
     {
-        "id": "roland",
-        "nombre": "Roland"
+        "id": "guitarra",
+        "nombre": "Guitarra"
     },
     {
-        "id": "vox",
-        "nombre": "Vox"
-    },
-    {
-        "id": "orange",
-        "nombre": "Orange"
-    }, 
-    {
-        "id": "marshall",
-        "nombre": "Marshall"
+        "id": "produccion",
+        "nombre": "Produccion"
     }
 ]
