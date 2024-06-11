@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom';
 export const ItemListContenedor = () => {
     const { categoryId } = useParams();
     const [productosFiltrados, setProductosFiltrados] = useState([]);
+    let [titulo,setTitulo] = useState('Productos')
 
     const pedirProductos = () => {
         return new Promise((resolve, reject) => {
@@ -20,9 +21,12 @@ export const ItemListContenedor = () => {
         pedirProductos()
             .then((resp) => {
                 if (categoryId) {
+                    setTitulo(categorias.find((cat) => cat.id === categoryId).nombre);
                     setProductosFiltrados(resp.filter((prodRecibidos) => prodRecibidos.categoria.id === categoryId));
                 } else {
+                    setTitulo("Nuestros Productos");
                     setProductosFiltrados(resp);
+                    
                 }
             })
             .catch((error) => {
@@ -31,28 +35,14 @@ export const ItemListContenedor = () => {
     }, [categoryId]);
 
     return (
+        
         <div className="item-list-contenedor">
+            <h1 className='titulo'>{titulo}</h1>
             <ItemList productos={productosFiltrados} />
         </div>
     );
 };
 
-
-    // useEffect(() => {
-
-    //     pedirProductos()
-    //         .then((res) =>{
-    //             setProductos(res);
-    //             console.log(Productos);
-    //         } )
-    //             if (!categoriaId) {
-    //                 setTitulo("Nuestros Productos");
-    //                 setProductos(res);
-    //             } else {
-    //                 setTitulo(categorias.find((cat) => cat.id === categoriaId).nombre);
-    //                 setProductos(res.filter((productos) => productos.categoria.id === categoriaId));
-    //             }
-    //         },[categoriaId]); 
 
 
 
