@@ -1,11 +1,11 @@
 [
     {
         "id": "amp",
-        "nombre": "Amplificador"
+        "nombre": "Amplificadores"
     },
     {
         "id": "guitarra",
-        "nombre": "Guitarra"
+        "nombre": "Guitarras"
     },
     {
         "id": "produccion",

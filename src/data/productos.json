@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
-        "precio": "USD 1000",
+        "precio":  1000,
         "modelo": "Champion 20",
+        "marca": "Fender",
         "tamaños": [
             "10W",
             "20W"
@@ -17,17 +18,17 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "src/img/img-amplificadores/fender-champion-20(2).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "../src/img/img-amplificadores/championback.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Fender"
+            "id": "amp"
         }
     },
     {
         "id": 2,
-        "precio": "USD 1400",
+        "precio": 1400,
         "modelo": "Mustang GT 40",
+        "marca": "Fender",
         "tamaños": [
             "20W",
             "40W"
@@ -42,17 +43,19 @@
             "Guitar Input",
             "Bluetooth"
         ],
-        "foto": "src/img/img-amplificadores/fender-mustang-40.png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/fender-mustang-40.png",
+        "foto2": "../src/img/img-amplificadores/fender2.png",
+        "foto3": "../src/img/img-amplificadores/fender3mustang.png",
+        "foto4": "../src/img/img-amplificadores/fender4mustang.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Fender"
+            "id": "amp"
         }
     },
     {
         "id": 3,
-        "precio": "USD 1300",
+        "precio": 1300,
         "modelo": "Blues Junior IV",
+        "marca": "Fender",
         "tamaños": [
             "15W",
             "30W"
@@ -64,17 +67,19 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "src/img/img-amplificadores/fender-blues-junior(1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/fender-blues-junior(1).png",
+        "foto2": "../src/img/img-amplificadores/bluesjunior2.png",
+        "foto3": "../src/img/img-amplificadores/bluesjuniorback.png",
+        "foto4": "../src/img/img-amplificadores/blues junior4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Fender"
+            "id": "amp"
         }
     },
     {
         "id": 4,
-        "precio": "USD 1000",
+        "precio": 1000,
         "modelo": "Cube-10GX",
+        "marca": "Roland",
         "tamaños": [
             "10W",
             "20W"
@@ -89,17 +94,19 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "src/img/img-amplificadores/roland-cube-10gx(1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/roland-cube-10gx(1).png",
+        "foto2": "../src/img/img-amplificadores/cubeback.png",
+        "foto3": "../src/img/img-amplificadores/cube4.png",
+
         "categoria": {
-            "id": "amp",
-            "nombre": "Roland"
+            "id": "amp"
         }
     },
     {
         "id": 5,
-        "precio": "USD 1500",
+        "precio": 1500,
         "modelo": "Blues Cube Hot",
+        "marca": "Roland",
         "tamaños": [
             "30W",
             "60W"
@@ -112,17 +119,19 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "src/img/img-amplificadores/roland-blues-cube-hot (1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/roland-blues-cube-hot (1).png",
+        "foto2": "../src/img/img-amplificadores/bluescubehot 2.png",
+        "foto3": "../src/img/img-amplificadores/blueshotback.png",
+        "foto4": "../src/img/img-amplificadores/blueshot4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Roland"
+            "id": "amp"
         }
     },
     {
         "id": 6,
-        "precio": "USD 1600",
+        "precio": 1600,
         "modelo": "JC-120",
+        "marca": "Roland",
         "tamaños": [
             "40W",
             "1200W"
@@ -136,17 +145,19 @@
             "Guitar Input",
             "Stereo Input"
         ],
-        "foto": "src/img/img-amplificadores/roland-jc-120(1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/roland-jc-120(1).png",
+        "foto2": "../src/img/img-amplificadores/jc2.png",
+        "foto3": "../src/img/img-amplificadores/jc3.png",
+        "foto4": "../src/img/img-amplificadores/jc4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Roland"
+            "id": "amp"
         }
     },
     {
         "id": 7,
-        "precio": "USD 1700",
+        "precio": 1700,
         "modelo": "AC15C1",
+        "marca": "Vox",
         "tamaños": [
             "15W",
             "30W"
@@ -159,17 +170,19 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "src/img/img-amplificadores/vox-ac.png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/vox-ac.png",
+        "foto2": "../src/img/img-amplificadores/212-2.png",
+        "foto3": "../src/img/img-amplificadores/212-back.png",
+        "foto4": "../src/img/img-amplificadores/212-4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Vox"
+            "id": "amp"
         }
     },
     {
         "id": 8,
-        "precio": "USD 1600",
+        "precio": 1600,
         "modelo": "VT20X",
+        "marca": "Vox",
         "tamaños": [
             "20W",
             "40W"
@@ -184,17 +197,19 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "src/img/img-amplificadores/vox-vt20x(1).webp",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/vt-20-1.png",
+        "foto2": "../src/img/img-amplificadores/vt20-2.png",
+        "foto3": "../src/img/img-amplificadores/vt20back.png",
+        "foto4": "../src/img/img-amplificadores/vt20-4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Vox"
+            "id": "amp"
         }
     },
     {
         "id": 9,
-        "precio": "USD 1500",
+        "precio": 1500,
         "modelo": "Mini5 Rhythm",
+        "marca": "Vox",
         "tamaños": [
             "5W",
             "10W"
@@ -209,17 +224,19 @@
             "Guitar Input",
             "Microphone Input"
         ],
-        "foto": "src/img/img-amplificadores/vox-mini-5-rhytim(1).webp",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/minir1.png",
+        "foto2": "../src/img/img-amplificadores/minir2.png",
+        "foto3": "../src/img/img-amplificadores/minirback.png",
+        "foto4": "../src/img/img-amplificadores/minir4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Vox"
+            "id": "amp"
         }
     },
     {
         "id": 10,
-        "precio": "USD 1800",
+        "precio": 1800,
         "modelo": "Rocker 15",
+        "marca": "Orange",
         "tamaños": [
             "15W",
             "30W"
@@ -232,17 +249,19 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "src/img/img-amplificadores/orange-rocker-15(1) copia.png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/orange-rocker-15(1) copia.png",
+        "foto2": "../src/img/img-amplificadores/orange2.png",
+        "foto3": "../src/img/img-amplificadores/path back.png",
+        "foto4": "../src/img/img-amplificadores/orange4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Orange"
+            "id": "amp"
         }
     },
     {
         "id": 11,
-        "precio": "USD 1900",
+        "precio": 1900,
         "modelo": "Crush 20",
+        "marca": "Orange",
         "tamaños": [
             "20W",
             "40W"
@@ -255,17 +274,18 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "src/img/img-amplificadores/orange-crush-20(1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/orange-crush-20(1).png",
+        "foto2": "../src/img/img-amplificadores/crush204.png",
+        "foto3": "../src/img/img-amplificadores/cursh204real.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Orange"
+            "id": "amp"
         }
     },
     {
         "id": 12,
-        "precio": "USD 1700",
+        "precio": 1700,
         "modelo": "Micro Terror",
+        "marca": "Orange",
         "tamaños": [
             "20W",
             "50W"
@@ -279,17 +299,19 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "src/img/img-amplificadores/orange-micro-terror(1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../../src/img/img-amplificadores/orange-micro-terror(1).png",
+        "foto2": "../../src/img/img-amplificadores/microterror2alreves .png",
+        "foto3": "../../src/img/img-amplificadores/microterrorback.png",
+        "foto4": "../../src/img/img-amplificadores/microterror4(cas?).png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Orange"
+            "id": "amp"
         }
     },
     {
         "id": 13,
-        "precio": "USD 1400",
+        "precio": 1400,
         "modelo": "MG10G",
+        "marca": "Marshall",
         "tamaños": [
             "10W",
             "20W"
@@ -303,17 +325,19 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "src/img/img-amplificadores/marshall-mg10g(1) copia.png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../../src/img/img-amplificadores/mg10.png",
+        "foto2": "../../src/img/img-amplificadores/mg102.png",
+        "foto3": "../../src/img/img-amplificadores/mg10back.png",
+        "foto4": "../../src/img/img-amplificadores/mg104.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Marshall"
+            "id": "amp"
         }
     },
     {
         "id": 14,
-        "precio": "USD 2000",
+        "precio": 2000,
         "modelo": "Code 25",
+        "marca": "Marshall",
         "tamaños": [
             "25W",
             "50W"
@@ -328,17 +352,19 @@
             "Guitar Input",
             "Bluetooth"
         ],
-        "foto": "src/img/img-amplificadores/marshall-code-25(1)copia.png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/marshall-code-25(1)copia.png",
+        "foto2": "../src/img/img-amplificadores/code2.png",
+        "foto3": "../src/img/img-amplificadores/codeback.png",
+        "foto4": "../src/img/img-amplificadores/code4.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Marshall"
+            "id": "amp"
         }
     },
     {
         "id": 15,
-        "precio": "USD 2200",
+        "precio": 2200,
         "modelo": "DSL40CR",
+        "marca": "Marshall",
         "tamaños": [
             "40W",
             "80W"
@@ -350,161 +376,190 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "src/img/img-amplificadores/marshall-dsl40cr(1).png",
-        "foto2": "src/img/img-amplificadores/fender-champion-20(2).png",
+        "foto": "../src/img/img-amplificadores/marshall-dsl40cr(1).png",
+        "foto2": "../src/img/img-amplificadores/dsl402.png",
+        "foto3": "../src/img/img-amplificadores/dsl40back.png",
         "categoria": {
-            "id": "amp",
-            "nombre": "Marshall"
+            "id": "amp"
         }
     },
+
+
+
+
+
+
+
+
+
     {
         "id": 16,
-        "precio": "USD 1500",
+        "precio": 1500,
         "modelo": "Stratocaster",
+        "marca": "Fender",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "src/img/img-guitarras/fender-stratocaster.png",
+        "foto":"../src/img/img-guitarras/strato1.png",
+        "foto2":"../src/img/img-guitarras/user_image_20240619_2004013986bd4c642.png",
+        "foto3":"",
+        "foto4":"",
         "categoria": {
-            "id": "guitarra",
-            "marca": "Fender"
+            "id": "guitarra"
         }
     },
     {
         "id": 17,
-        "precio": "USD 1600",
+        "precio": 1600,
         "modelo": "Telecaster",
+        "marca": "Fender",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Ash body, Maple neck",
-        "foto": "src/img/img-guitarras/fender-telecaster.png",
+        "foto": "../src/img/img-guitarras/teleca.png",
+        "foto2":"../src/img/img-guitarras/telecasterback.png",
+        "foto3":"../src/img/img-guitarras/telecaster3.png",
+        "foto4":"",
         "categoria": {
-            "id": "guitarra",
-            "marca": "Fender"
+            "id": "guitarra"
         }
     },
     {
         "id": 18,
-        "precio": "USD 2500",
+        "precio": 2500,
         "modelo": "SG",
+        "marca": "Gibson",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Mahogany body, Mahogany neck",
-        "foto": "src/img/img-guitarras/gibson-sg.png",
+        "foto":"../src/img/img-guitarras/sg1.png",
+        "foto2":"../src/img/img-guitarras/sg2.png",
         "categoria": {
-            "marca": "Gibson",
             "id": "guitarra"
         }
     },
     {
         "id": 19,
-        "precio": "USD 3000",
+        "precio": 3000,
         "modelo": "ES-335",
+        "marca": "Gibson",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Maple/Poplar/Maple body, Mahogany neck",
-        "foto": "src/img/img-guitarras/gibson-es-335.png",
+        "foto": "../src/img/img-guitarras/gibson1.png",
+        "foto2":"../src/img/img-guitarras/gibson2.png",
+        "foto3":"../src/img/img-guitarras/gibsonmal.png",
         "categoria": {
-            "marca": "Gibson",
             "id": "guitarra"
         }
     },
     {
         "id": 20,
-        "precio": "USD 800",
+        "precio": 800,
         "modelo": "Pacifica",
+        "marca": "Yamaha",
         "pastillas": [
             "Single Coil",
             "Humbucker"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "src/img/img-guitarras/yamaha-pacifica.png",
+        "foto": "../src/img/img-guitarras/pacifica1.png",
+        "foto2":"../src/img/img-guitarras/pacifica2.png",
+        "foto3":"../src/img/img-guitarras/pacifica3.png",
         "categoria": {
-            "marca": "Yamaha",
-            "id": "guitarra"
+            "marca": "Yamaha"
         }
     },
     {
         "id": 21,
-        "precio": "USD 900",
+        "precio": 900,
         "modelo": "SG2",
+        "marca": "Yamaha",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "src/img/img-guitarras/yamaha-sg2.png",
+        "foto": "../src/img/img-guitarras/yamahasg.png",
+        "foto2":"../src/img/img-guitarras/yamahasgback.png",
+        "foto3":"../src/img/img-guitarras/yamahasg3.png",
         "categoria": {
-            "marca": "Yamaha",
             "id": "guitarra"
         }
     },
     {
         "id": 22,
-        "precio": "USD 1200",
+        "precio": 1200,
         "modelo": "Revstar",
+        "marca": "Yamaha",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Mahogany body, Mahogany neck",
-        "foto": "src/img/img-guitarras/yamaha-revstar.png",
+        "foto": "../src/img/img-guitarras/Yamaha.png",
+        "foto2":"../src/img/img-guitarras/traced-yamaha(2).png",
+        "foto3":"../src/img/img-guitarras/traced-yamaha(3).png",
+
         "categoria": {
-            "marca": "Yamaha",
             "id": "guitarra"
         }
     },
     {
         "id": 23,
-        "precio": "USD 3500",
+        "precio": 3500,
         "modelo": "RE-1",
+        "marca": "Baranik",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Mahogany body, Maple neck",
-        "foto": "src/img/img-guitarras/baranik-re-1.png",
+        "foto": "../src/img/img-guitarras/Baranik.jpeg",
+        "foto2":"../src/img/img-guitarras/Baranik(2)(1).jpeg",
+        "foto3":"../src/img/img-guitarras/Baranik(3).jpeg",
         "categoria": {
-            "marca": "Baranik",
             "id": "guitarra"
         }
     },
     {
         "id": 24,
-        "precio": "USD 2000",
+        "precio": 2000,
         "modelo": "Jetson Coral",
+        "marca": "Uma",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "src/img/img-guitarras/uma-jetson-coral.png",
+        "foto": "../src/img/img-guitarras/traced-umajetsoncoral.png",
+        "foto2":"../src/img/img-guitarras/umajetsonverde.png",
         "categoria": {
-            "marca": "Uma",
             "id": "guitarra"
         }
     },
     {
         "id": 25,
-        "precio": "USD 100",
+        "precio": 100,
         "modelo": "AT2020",
+        "marca": "Audio-Technica",
         "tipo": "Micrófono de condensador",
         "caracteristicas": [
             "Cardioide",
             "20 Hz - 20 kHz",
             "144 dB SPL máximo"
         ],
-        "foto": "src/img/img-produccion/at-2020.png",
-        "foto2": "src/img/img-produccion/at-2020(2).png",
+        "foto": "../src/img/img-produccion/at-2020.png",
+        "foto2": "../src/img/img-produccion/at-2020(2).png",
         "categoria": {
-            "marca": "Audio-Technica",
             "id": "produccion"
         }
     },
     {
         "id": 26,
-        "precio": "USD 160",
+        "precio": 160,
         "modelo": "Scarlett 2i2 (4ª Generación)",
+        "marca": "Focusrite",
         "tipo": "Interfaz de audio",
         "caracteristicas": [
             "2 entradas combo XLR/TRS",
@@ -512,16 +567,18 @@
             "Phantom power",
             "Compatible con Mac y Windows"
         ],
-        "foto": "src/img/img-productos/focusrite-scarlett-2i2-4gen.png",
+        "foto": "../src/img/img-produccion/focusrite1.png",
+        "foto2":"../src/img/img-produccion/focusrite2.png",
+        "foto3":"../src/img/img-produccion/focusriteback.png",
         "categoria": {
-            "marca": "Focusrite",
             "id": "produccion"
         }
     },
     {
         "id": 27,
-        "precio": "USD 150",
+        "precio": 150,
         "modelo": "305P MkIII",
+        "marca": "JBL",
         "tipo": "Monitor de estudio",
         "caracteristicas": [
             "5 pulgadas",
@@ -529,9 +586,9 @@
             "112 dB SPL máximo",
             "Bi-amplificado"
         ],
-        "foto": "src/img/img-productos/jbl-305p-mk3.png",
+        "foto": "../src/img/img-produccion/jbl1.png",
+        "foto2":"../src/img/img-produccion/jbl2.png",
         "categoria": {
-            "marca": "JBL",
             "id": "produccion"
         }
     }

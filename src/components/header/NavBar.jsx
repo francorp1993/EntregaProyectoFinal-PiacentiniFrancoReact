@@ -1,14 +1,22 @@
 import React from 'react';
-import { Carrito } from './Carrito';
+import CartWidget from './CartWidget';
 import { NavLink } from 'react-router-dom';
 import categorias from '../../data/categorias.json';
 
 export const NavBar = () => {
 
+
+
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/"><img src="/src/img/logo (1).png" alt="Logo" /></a>
+                <NavLink to="/"
+                    className={({ isActive }) =>
+                        isActive ? "nav-link pag-activa" : "nav-link"
+                    }
+                >
+                    <img src="/src/img/logo (1).png" alt="Logo" className="logo" />
+                </NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -38,27 +46,27 @@ export const NavBar = () => {
                             </NavLink>
                             <ul className="dropdown-menu">
                                 {
-                                categorias.map((categoria)=>{
-                                    return(
-                                        <li key={categoria.id}>
-                                        <NavLink to={`category/${categoria.id}`} className={({ isActive }) => isActive ? "nav-opcion pag-activa" : "nav-opcion"}>
-                                        {categoria.nombre}
-                                        </NavLink>
-                                        </li>
-                                    )
-                                })
+                                    categorias.map((categoria) => {
+                                        return (
+                                            <li key={categoria.id}>
+                                                <NavLink to={`category/${categoria.id}`} className={({ isActive }) => isActive ? "nav-opcion pag-activa" : "nav-opcion"}>
+                                                    {categoria.nombre}
+                                                </NavLink>
+                                            </li>
+                                        )
+                                    })
                                 }
                             </ul>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                        <input id="buscarInput" className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
                         <button className="btn btn-outline-secondary" type="submit">
                             <img src="/src/img/lupa-blanca.png" alt="Buscar" className="lupa" />
                         </button>
                     </form>
                 </div>
-                <Carrito />
+                <CartWidget/>
             </div>
         </nav>
     );

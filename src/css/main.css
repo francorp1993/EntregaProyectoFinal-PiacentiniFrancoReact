@@ -20,13 +20,16 @@ body {
     height: 15vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     position: sticky;
+    top: 0;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.913);
+    z-index: 1000;
 }
 
 .navbar {
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.913);
+    width: 100%;
 }
 
 .container-fluid {
@@ -108,7 +111,7 @@ body {
 }
 
 /* CAARRITO */
-.carrito {
+.carrito-div {
     margin-right: 20px;
     padding-left: 5px;
     color: white;
@@ -240,6 +243,88 @@ body {
 
 .nav-link {
     color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 
+
+.item-vm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: .5rem;
+    padding: 1rem;
+    height: 100%;
+}
+
+.img-vm {
+    width: auto;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.img-vm:hover {
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+
+.h1vm{
+    font-family: 'Nabla', sans-serif  ;
+    font-size: 40px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2vm{
+    font-family: 'Electrolize', sans-serif  ;
+    font-size: 40px;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item-ver-mas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; 
+}
+
+.boton-agregar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}

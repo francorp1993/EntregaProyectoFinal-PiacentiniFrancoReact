@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { CartContext } from '../context/CartContext';
+
 
 export const Item = ({ productos }) => {
+
+    const {agregarAlCarrito} = useContext (CartContext)
+
+
     return (
         <div className="item">
             <div id={`carousel-${productos.id}`} className="carousel slide">
@@ -29,6 +36,8 @@ export const Item = ({ productos }) => {
                 <h2>{productos.modelo}</h2>
                 <p className='precio'>${productos.precio}</p>
                 <p className="data">{productos.efectos}</p>
+                <Link to ={`/item/${productos.id}`}>Ver más</Link>
+                <button onClick={ ()=> agregarAlCarrito (productos) } className="boton-agregar" >Agregar al carrito</button>
             </div>
         </div>
     );
