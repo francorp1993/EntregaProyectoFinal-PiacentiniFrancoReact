@@ -15,7 +15,7 @@ export const NavBar = () => {
                         isActive ? "nav-link pag-activa" : "nav-link"
                     }
                 >
-                    <img src="/public/img/logo(1).png" alt="Logo" className="logo" />
+                    <img src="/img/logo(1).png" alt="Logo" className="logo" />
                 </NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@ export const NavBar = () => {
                     <form className="d-flex" role="search">
                         <input id="buscarInput" className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
                         <button className="btn btn-outline-secondary" type="submit">
-                            <img src="/public/img/lupa-blanca.png" alt="Buscar" className="lupa" />
+                            <img src="/img/lupa-blanca.png" alt="Buscar" className="lupa" />
                         </button>
                     </form>
                 </div>

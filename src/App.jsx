@@ -8,6 +8,7 @@ import ItemDetailContainer from './components/ItemDetailContainer';
 import Cart from './components/Cart';
 import { CartProvider } from './context/CartContext';
 import Checkout from './components/Checkout';
+// import CargarProductos from './components/CargarProductos';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/item/:itemId" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/finalizar-compra" element={<Checkout/>} />
+          {/* <Route path="/cargar-productos" element={<CargarProductos/>} /> */}
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

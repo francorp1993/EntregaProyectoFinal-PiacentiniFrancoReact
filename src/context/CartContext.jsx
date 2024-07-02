@@ -21,10 +21,10 @@ export const CartProvider = ({ children }) => {
     const cantidadCarrito = () => {
         return carrito.length
     }
-
     const totalCarrito = () => {
-        return carrito.reduce((acc, prod) => acc + prod.precio, 0);
+        return carrito.reduce((acc, prod) => acc + prod.precio, 0).toFixed(2);
     }
+    
 
     const vaciarCarrito = () => {
         setCarrito([]);

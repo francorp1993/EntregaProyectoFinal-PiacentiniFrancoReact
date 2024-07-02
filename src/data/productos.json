@@ -2,8 +2,10 @@
     {
         "id": 1,
         "precio":  1000,
+        "stock": 15,
         "modelo": "Champion 20",
         "marca": "Fender",
+        "descripción": "Amplificador compacto de 20W, ideal para principiantes.",
         "tamaños": [
             "10W",
             "20W"
@@ -18,8 +20,8 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "../src/img/img-amplificadores/fender-champion-20(2).png",
-        "foto2": "../src/img/img-amplificadores/championback.png",
+        "foto": "/img/img-amplificadores/fender-champion-20(2).png",
+        "foto2": "3",
         "categoria": {
             "id": "amp"
         }
@@ -27,8 +29,10 @@
     {
         "id": 2,
         "precio": 1400,
+        "stock": 14,
         "modelo": "Mustang GT 40",
         "marca": "Fender",
+        "descripción": "Amplificador digital de 40W con efectos integrados y conectividad Bluetooth.",
         "tamaños": [
             "20W",
             "40W"
@@ -43,10 +47,10 @@
             "Guitar Input",
             "Bluetooth"
         ],
-        "foto": "../src/img/img-amplificadores/fender-mustang-40.png",
-        "foto2": "../src/img/img-amplificadores/fender2.png",
-        "foto3": "../src/img/img-amplificadores/fender3mustang.png",
-        "foto4": "../src/img/img-amplificadores/fender4mustang.png",
+        "foto": "/img/img-amplificadores/fender-mustang-40.png",
+        "foto2": "/img/img-amplificadores/fender2.png",
+        "foto3": "/img/img-amplificadores/fender3mustang.png",
+        "foto4": "/img/img-amplificadores/fender4mustang.png",
         "categoria": {
             "id": "amp"
         }
@@ -54,8 +58,10 @@
     {
         "id": 3,
         "precio": 1300,
+        "stock": 11,
         "modelo": "Blues Junior IV",
         "marca": "Fender",
+        "descripción": "Amplificador a válvulas de 15W con tono cálido y reverberación incorporada.",
         "tamaños": [
             "15W",
             "30W"
@@ -67,10 +73,10 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "../src/img/img-amplificadores/fender-blues-junior(1).png",
-        "foto2": "../src/img/img-amplificadores/bluesjunior2.png",
-        "foto3": "../src/img/img-amplificadores/bluesjuniorback.png",
-        "foto4": "../src/img/img-amplificadores/blues junior4.png",
+        "foto": "/img/img-amplificadores/fender-blues-junior(1).png",
+        "foto2": "/img/img-amplificadores/bluesjunior2.png",
+        "foto3": "/img/img-amplificadores/bluesjuniorback.png",
+        "foto4": "/img/img-amplificadores/blues junior4.png",
         "categoria": {
             "id": "amp"
         }
@@ -78,8 +84,10 @@
     {
         "id": 4,
         "precio": 1000,
+        "stock": 18,
         "modelo": "Cube-10GX",
         "marca": "Roland",
+        "descripción": "Amplificador portátil de 10W con modelado de amplificadores y efectos.",
         "tamaños": [
             "10W",
             "20W"
@@ -94,9 +102,9 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "../src/img/img-amplificadores/roland-cube-10gx(1).png",
-        "foto2": "../src/img/img-amplificadores/cubeback.png",
-        "foto3": "../src/img/img-amplificadores/cube4.png",
+        "foto": "/img/img-amplificadores/roland-cube-10gx(1).png",
+        "foto2": "/img/img-amplificadores/cubeback.png",
+        "foto3": "/img/img-amplificadores/cube4.png",
 
         "categoria": {
             "id": "amp"
@@ -105,8 +113,10 @@
     {
         "id": 5,
         "precio": 1500,
+        "stock": 15,
         "modelo": "Blues Cube Hot",
         "marca": "Roland",
+        "descripción": "Amplificador a válvulas de 30W con tono vintage.",
         "tamaños": [
             "30W",
             "60W"
@@ -119,10 +129,10 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "../src/img/img-amplificadores/roland-blues-cube-hot (1).png",
-        "foto2": "../src/img/img-amplificadores/bluescubehot 2.png",
-        "foto3": "../src/img/img-amplificadores/blueshotback.png",
-        "foto4": "../src/img/img-amplificadores/blueshot4.png",
+        "foto": "/img/img-amplificadores/roland-blues-cube-hot (1).png",
+        "foto2": "/img/img-amplificadores/bluescubehot 2.png",
+        "foto3": "/img/img-amplificadores/blueshotback.png",
+        "foto4": "/img/img-amplificadores/blueshot4.png",
         "categoria": {
             "id": "amp"
         }
@@ -130,8 +140,10 @@
     {
         "id": 6,
         "precio": 1600,
+        "stock": 15,
         "modelo": "JC-120",
         "marca": "Roland",
+        "descripción": "Amplificador estéreo de 120W con chorus estéreo y sonido limpio.",
         "tamaños": [
             "40W",
             "1200W"
@@ -145,10 +157,10 @@
             "Guitar Input",
             "Stereo Input"
         ],
-        "foto": "../src/img/img-amplificadores/roland-jc-120(1).png",
-        "foto2": "../src/img/img-amplificadores/jc2.png",
-        "foto3": "../src/img/img-amplificadores/jc3.png",
-        "foto4": "../src/img/img-amplificadores/jc4.png",
+        "foto": "/img/img-amplificadores/roland-jc-120(1).png",
+        "foto2": "/img/img-amplificadores/jc2.png",
+        "foto3": "/img/img-amplificadores/jc3.png",
+        "foto4": "/img/img-amplificadores/jc4.png",
         "categoria": {
             "id": "amp"
         }
@@ -156,8 +168,10 @@
     {
         "id": 7,
         "precio": 1700,
+        "stock": 14,
         "modelo": "AC15C1",
         "marca": "Vox",
+        "descripción": "Amplificador a válvulas de 15W con sonido clásico británico.",
         "tamaños": [
             "15W",
             "30W"
@@ -170,10 +184,10 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "../src/img/img-amplificadores/vox-ac.png",
-        "foto2": "../src/img/img-amplificadores/212-2.png",
-        "foto3": "../src/img/img-amplificadores/212-back.png",
-        "foto4": "../src/img/img-amplificadores/212-4.png",
+        "foto": "/img/img-amplificadores/vox-ac.png",
+        "foto2": "/img/img-amplificadores/212-2.png",
+        "foto3": "/img/img-amplificadores/212-back.png",
+        "foto4": "/img/img-amplificadores/212-4.png",
         "categoria": {
             "id": "amp"
         }
@@ -181,8 +195,10 @@
     {
         "id": 8,
         "precio": 1600,
+        "stock": 20,
         "modelo": "VT20X",
         "marca": "Vox",
+        "descripción": "Amplificador de modelado de 20W con tecnología VET.",
         "tamaños": [
             "20W",
             "40W"
@@ -197,10 +213,10 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "../src/img/img-amplificadores/vt-20-1.png",
-        "foto2": "../src/img/img-amplificadores/vt20-2.png",
-        "foto3": "../src/img/img-amplificadores/vt20back.png",
-        "foto4": "../src/img/img-amplificadores/vt20-4.png",
+        "foto": "/img/img-amplificadores/vt-20-1.png",
+        "foto2": "/img/img-amplificadores/vt20-2.png",
+        "foto3": "/img/img-amplificadores/vt20back.png",
+        "foto4": "/img/img-amplificadores/vt20-4.png",
         "categoria": {
             "id": "amp"
         }
@@ -208,8 +224,10 @@
     {
         "id": 9,
         "precio": 1500,
+        "stock": 19,
         "modelo": "Mini5 Rhythm",
         "marca": "Vox",
+        "descripción": "Amplificador portátil de 5W con ritmos incorporados.",
         "tamaños": [
             "5W",
             "10W"
@@ -224,10 +242,10 @@
             "Guitar Input",
             "Microphone Input"
         ],
-        "foto": "../src/img/img-amplificadores/minir1.png",
-        "foto2": "../src/img/img-amplificadores/minir2.png",
-        "foto3": "../src/img/img-amplificadores/minirback.png",
-        "foto4": "../src/img/img-amplificadores/minir4.png",
+        "foto": "/img/img-amplificadores/minir1.png",
+        "foto2": "/img/img-amplificadores/minir2.png",
+        "foto3": "/img/img-amplificadores/minirback.png",
+        "foto4": "/img/img-amplificadores/minir4.png",
         "categoria": {
             "id": "amp"
         }
@@ -235,8 +253,10 @@
     {
         "id": 10,
         "precio": 1800,
+        "stock": 13,
         "modelo": "Rocker 15",
         "marca": "Orange",
+        "descripción": "Amplificador a válvulas de 15W con opción de atenuación.",
         "tamaños": [
             "15W",
             "30W"
@@ -249,10 +269,10 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "../src/img/img-amplificadores/orange-rocker-15(1) copia.png",
-        "foto2": "../src/img/img-amplificadores/orange2.png",
-        "foto3": "../src/img/img-amplificadores/path back.png",
-        "foto4": "../src/img/img-amplificadores/orange4.png",
+        "foto": "/img/img-amplificadores/orange-rocker-15(1) copia.png",
+        "foto2": "/img/img-amplificadores/orange2.png",
+        "foto3": "/img/img-amplificadores/path back.png",
+        "foto4": "/img/img-amplificadores/orange4.png",
         "categoria": {
             "id": "amp"
         }
@@ -260,8 +280,10 @@
     {
         "id": 11,
         "precio": 1900,
+        "stock": 16,
         "modelo": "Crush 20",
         "marca": "Orange",
+        "descripción": "Amplificador de 20W con distorsión potente.",
         "tamaños": [
             "20W",
             "40W"
@@ -274,9 +296,9 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "../src/img/img-amplificadores/orange-crush-20(1).png",
-        "foto2": "../src/img/img-amplificadores/crush204.png",
-        "foto3": "../src/img/img-amplificadores/cursh204real.png",
+        "foto": "/img/img-amplificadores/orange-crush-20(1).png",
+        "foto2": "/img/img-amplificadores/crush204.png",
+        "foto3": "/img/img-amplificadores/cursh204real.png",
         "categoria": {
             "id": "amp"
         }
@@ -284,8 +306,10 @@
     {
         "id": 12,
         "precio": 1700,
+        "stock": 10,
         "modelo": "Micro Terror",
         "marca": "Orange",
+        "descripción": "Amplificador híbrido miniatura de 20W.",
         "tamaños": [
             "20W",
             "50W"
@@ -299,10 +323,10 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "../../src/img/img-amplificadores/orange-micro-terror(1).png",
-        "foto2": "../../src/img/img-amplificadores/microterror2alreves .png",
-        "foto3": "../../src/img/img-amplificadores/microterrorback.png",
-        "foto4": "../../src/img/img-amplificadores/microterror4(cas?).png",
+        "foto": "/img/img-amplificadores/orange-micro-terror(1).png",
+        "foto2": "/img/img-amplificadores/microterror2alreves .png",
+        "foto3": "/img/img-amplificadores/microterrorback.png",
+        "foto4": "/img/img-amplificadores/microterror4(casi).png",
         "categoria": {
             "id": "amp"
         }
@@ -310,8 +334,10 @@
     {
         "id": 13,
         "precio": 1400,
+        "stock": 8,
         "modelo": "MG10G",
         "marca": "Marshall",
+        "descripción": "Amplificador compacto de 10W con overdrive.",
         "tamaños": [
             "10W",
             "20W"
@@ -325,10 +351,10 @@
             "Guitar Input",
             "AUX In"
         ],
-        "foto": "../../src/img/img-amplificadores/mg10.png",
-        "foto2": "../../src/img/img-amplificadores/mg102.png",
-        "foto3": "../../src/img/img-amplificadores/mg10back.png",
-        "foto4": "../../src/img/img-amplificadores/mg104.png",
+        "foto": "/img/img-amplificadores/mg10.png",
+        "foto2": "/img/img-amplificadores/mg102.png",
+        "foto3": "/img/img-amplificadores/mg10back.png",
+        "foto4": "/img/img-amplificadores/mg104.png",
         "categoria": {
             "id": "amp"
         }
@@ -336,8 +362,10 @@
     {
         "id": 14,
         "precio": 2000,
+        "stock": 6,
         "modelo": "Code 25",
         "marca": "Marshall",
+        "descripción": "Amplificador digital de 25W con modelado de amplificadores.",
         "tamaños": [
             "25W",
             "50W"
@@ -352,10 +380,10 @@
             "Guitar Input",
             "Bluetooth"
         ],
-        "foto": "../src/img/img-amplificadores/marshall-code-25(1)copia.png",
-        "foto2": "../src/img/img-amplificadores/code2.png",
-        "foto3": "../src/img/img-amplificadores/codeback.png",
-        "foto4": "../src/img/img-amplificadores/code4.png",
+        "foto": "/img/img-amplificadores/marshall-code-25(1)copia.png",
+        "foto2": "/img/img-amplificadores/code2.png",
+        "foto3": "/img/img-amplificadores/codeback.png",
+        "foto4": "/img/img-amplificadores/code4.png",
         "categoria": {
             "id": "amp"
         }
@@ -363,8 +391,10 @@
     {
         "id": 15,
         "precio": 2200,
+        "stock": 5,
         "modelo": "DSL40CR",
         "marca": "Marshall",
+        "descripción": "Amplificador a válvulas de 40W con doble canal y reverberación.",
         "tamaños": [
             "40W",
             "80W"
@@ -376,33 +406,28 @@
         "entradas": [
             "Guitar Input"
         ],
-        "foto": "../src/img/img-amplificadores/marshall-dsl40cr(1).png",
-        "foto2": "../src/img/img-amplificadores/dsl402.png",
-        "foto3": "../src/img/img-amplificadores/dsl40back.png",
+        "foto": "/img/img-amplificadores/marshall-dsl40cr(1).png",
+        "foto2": "/img/img-amplificadores/dsl402.png",
+        "foto3": "/img/img-amplificadores/dsl40back.png",
         "categoria": {
             "id": "amp"
         }
     },
 
 
-
-
-
-
-
-
-
     {
         "id": 16,
         "precio": 1500,
+        "stock": 12,
         "modelo": "Stratocaster",
         "marca": "Fender",
+        "descripción": "Guitarra icónica con tres pastillas simples.",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto":"../src/img/img-guitarras/strato1.png",
-        "foto2":"../src/img/img-guitarras/user_image_20240619_2004013986bd4c642.png",
+        "foto":"/img/img-guitarras/strato1.png",
+        "foto2":"/img/img-guitarras/user_image_20240619_2004013986bd4c642.png",
         "foto3":"",
         "foto4":"",
         "categoria": {
@@ -412,15 +437,17 @@
     {
         "id": 17,
         "precio": 1600,
+        "stock": 11,
         "modelo": "Telecaster",
         "marca": "Fender",
+        "descripción": "Guitarra versátil con dos pastillas simples.",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Ash body, Maple neck",
-        "foto": "../src/img/img-guitarras/teleca.png",
-        "foto2":"../src/img/img-guitarras/telecasterback.png",
-        "foto3":"../src/img/img-guitarras/telecaster3.png",
+        "foto": "/img/img-guitarras/teleca.png",
+        "foto2":"/img/img-guitarras/telecasterback.png",
+        "foto3":"/img/img-guitarras/telecaster3.png",
         "foto4":"",
         "categoria": {
             "id": "guitarra"
@@ -429,14 +456,16 @@
     {
         "id": 18,
         "precio": 2500,
+        "stock": 7,
         "modelo": "SG",
         "marca": "Gibson",
+        "descripción": "Guitarra ligera con doble cutaway y pastillas humbucker.",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Mahogany body, Mahogany neck",
-        "foto":"../src/img/img-guitarras/sg1.png",
-        "foto2":"../src/img/img-guitarras/sg2.png",
+        "foto":"/img/img-guitarras/sg1.png",
+        "foto2":"/img/img-guitarras/sg2.png",
         "categoria": {
             "id": "guitarra"
         }
@@ -444,15 +473,17 @@
     {
         "id": 19,
         "precio": 3000,
+        "stock": 15,
         "modelo": "ES-335",
         "marca": "Gibson",
+        "descripción": "Guitarra semihueca con pastillas humbucker.",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Maple/Poplar/Maple body, Mahogany neck",
-        "foto": "../src/img/img-guitarras/gibson1.png",
-        "foto2":"../src/img/img-guitarras/gibson2.png",
-        "foto3":"../src/img/img-guitarras/gibsonmal.png",
+        "foto": "/img/img-guitarras/gibson1.png",
+        "foto2":"/img/img-guitarras/gibson2.png",
+        "foto3":"/img/img-guitarras/gibsonmal.png",
         "categoria": {
             "id": "guitarra"
         }
@@ -460,16 +491,18 @@
     {
         "id": 20,
         "precio": 800,
+        "stock": 9,
         "modelo": "Pacifica",
         "marca": "Yamaha",
+        "descripción": "Guitarra asequible y versátil con configuración HSS.",
         "pastillas": [
             "Single Coil",
             "Humbucker"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "../src/img/img-guitarras/pacifica1.png",
-        "foto2":"../src/img/img-guitarras/pacifica2.png",
-        "foto3":"../src/img/img-guitarras/pacifica3.png",
+        "foto": "/img/img-guitarras/pacifica1.png",
+        "foto2":"/img/img-guitarras/pacifica2.png",
+        "foto3":"/img/img-guitarras/pacifica3.png",
         "categoria": {
             "marca": "Yamaha"
         }
@@ -477,15 +510,17 @@
     {
         "id": 21,
         "precio": 900,
+        "stock": 6,
         "modelo": "SG2",
         "marca": "Yamaha",
+        "descripción": "Guitarra sólida con pastillas humbucker.",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "../src/img/img-guitarras/yamahasg.png",
-        "foto2":"../src/img/img-guitarras/yamahasgback.png",
-        "foto3":"../src/img/img-guitarras/yamahasg3.png",
+        "foto": "/img/img-guitarras/yamahasg.png",
+        "foto2":"/img/img-guitarras/yamahasgback.png",
+        "foto3":"/img/img-guitarras/yamahasg3.png",
         "categoria": {
             "id": "guitarra"
         }
@@ -493,15 +528,17 @@
     {
         "id": 22,
         "precio": 1200,
+        "stock": 8,
         "modelo": "Revstar",
         "marca": "Yamaha",
+        "descripción": "Guitarra con diseño retro y pastillas personalizadas.",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Mahogany body, Mahogany neck",
-        "foto": "../src/img/img-guitarras/Yamaha.png",
-        "foto2":"../src/img/img-guitarras/traced-yamaha(2).png",
-        "foto3":"../src/img/img-guitarras/traced-yamaha(3).png",
+        "foto": "/img/img-guitarras/Yamaha.png",
+        "foto2":"/img/img-guitarras/traced-yamaha(2).png",
+        "foto3":"/img/img-guitarras/traced-yamaha(3).png",
 
         "categoria": {
             "id": "guitarra"
@@ -510,15 +547,17 @@
     {
         "id": 23,
         "precio": 3500,
+        "stock": 3,
         "modelo": "RE-1",
         "marca": "Baranik",
+        "descripción": "Guitarra artesanal con diseño innovador.",
         "pastillas": [
             "Humbucker"
         ],
         "material_construccion": "Mahogany body, Maple neck",
-        "foto": "../src/img/img-guitarras/Baranik.jpeg",
-        "foto2":"../src/img/img-guitarras/Baranik(2)(1).jpeg",
-        "foto3":"../src/img/img-guitarras/Baranik(3).jpeg",
+        "foto": "/img/img-guitarras/Baranik.jpeg",
+        "foto2":"/img/img-guitarras/Baranik(2)(1).jpeg",
+        "foto3":"/img/img-guitarras/Baranik(3).jpeg",
         "categoria": {
             "id": "guitarra"
         }
@@ -526,14 +565,16 @@
     {
         "id": 24,
         "precio": 2000,
+        "stock": 5,
         "modelo": "Jetson Coral",
         "marca": "Uma",
+        "descripción": "Guitarra con estética única y sonido distintivo.",
         "pastillas": [
             "Single Coil"
         ],
         "material_construccion": "Alder body, Maple neck",
-        "foto": "../src/img/img-guitarras/traced-umajetsoncoral.png",
-        "foto2":"../src/img/img-guitarras/umajetsonverde.png",
+        "foto": "/img/img-guitarras/traced-umajetsoncoral.png",
+        "foto2":"/img/img-guitarras/umajetsonverde.png",
         "categoria": {
             "id": "guitarra"
         }
@@ -541,16 +582,18 @@
     {
         "id": 25,
         "precio": 100,
+        "stock": 25,
         "modelo": "AT2020",
         "marca": "Audio-Technica",
+        "descripción": "Micrófono de condensador cardioide ideal para estudio.",
         "tipo": "Micrófono de condensador",
         "caracteristicas": [
             "Cardioide",
             "20 Hz - 20 kHz",
             "144 dB SPL máximo"
         ],
-        "foto": "../src/img/img-produccion/at-2020.png",
-        "foto2": "../src/img/img-produccion/at-2020(2).png",
+        "foto": "/img/img-produccion/at-2020.png",
+        "foto2": "/img/img-produccion/at-2020(2).png",
         "categoria": {
             "id": "produccion"
         }
@@ -558,8 +601,10 @@
     {
         "id": 26,
         "precio": 160,
+        "stock": 20,
         "modelo": "Scarlett 2i2 (4ª Generación)",
         "marca": "Focusrite",
+        "descripción": "Interfaz de audio USB con dos preamplificadores.",
         "tipo": "Interfaz de audio",
         "caracteristicas": [
             "2 entradas combo XLR/TRS",
@@ -567,9 +612,9 @@
             "Phantom power",
             "Compatible con Mac y Windows"
         ],
-        "foto": "../src/img/img-produccion/focusrite1.png",
-        "foto2":"../src/img/img-produccion/focusrite2.png",
-        "foto3":"../src/img/img-produccion/focusriteback.png",
+        "foto": "/img/img-produccion/focusrite1.png",
+        "foto2":"/img/img-produccion/focusrite2.png",
+        "foto3":"/img/img-produccion/focusriteback.png",
         "categoria": {
             "id": "produccion"
         }
@@ -577,8 +622,10 @@
     {
         "id": 27,
         "precio": 150,
+        "stock": 12,
         "modelo": "305P MkIII",
         "marca": "JBL",
+        "descripción": "Monitor de estudio de 5 pulgadas con sonido preciso y amplio rango dinámico.",
         "tipo": "Monitor de estudio",
         "caracteristicas": [
             "5 pulgadas",
@@ -586,8 +633,8 @@
             "112 dB SPL máximo",
             "Bi-amplificado"
         ],
-        "foto": "../src/img/img-produccion/jbl1.png",
-        "foto2":"../src/img/img-produccion/jbl2.png",
+        "foto": "/img/img-produccion/jbl1.png",
+        "foto2":"/img/img-produccion/jbl2.png",
         "categoria": {
             "id": "produccion"
         }
