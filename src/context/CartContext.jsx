@@ -1,13 +1,17 @@
-import { createContext, useState } from "react";
+import { set } from "firebase/database";
+import { createContext, useState, useEffect } from "react";
 
+
+const carritoInicial = JSON.parse(localStorage.getItem('carrito')) || [];
 
 
 export const CartContext = createContext();
 
-export const CartProvider = ({children}) => {
+export const CartProvider = ({ children }) => {
 
 
-    const [carrito, setCarrito] = useState([]);
+    const [carrito, setCarrito] = useState(carritoInicial);
+
 
 
     const agregarAlCarrito = (producto) => {
@@ -26,11 +30,26 @@ export const CartProvider = ({children}) => {
         setCarrito([]);
     }
 
+    const eliminarItem = (producto) => {
 
-    return(
-    <CartContext.Provider value={{ carrito, cantidadCarrito, agregarAlCarrito, totalCarrito, vaciarCarrito}}>
-        {children}
-    </CartContext.Provider>
+        const itemEncontrado = carrito.find(prod => prod.id === producto.id);
+        const indice = carrito.indexOf(itemEncontrado)
+
+        const nuevoCarrito = [...carrito];
+        nuevoCarrito.splice(indice, 1);
+        setCarrito(nuevoCarrito);
+    }
+
+    useEffect(() => {
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+    }, [carrito]);
+
+
+
+    return (
+        <CartContext.Provider value={{ carrito, setCarrito, cantidadCarrito, agregarAlCarrito, totalCarrito, vaciarCarrito, eliminarItem }}>
+            {children}
+        </CartContext.Provider>
 
     )
 }

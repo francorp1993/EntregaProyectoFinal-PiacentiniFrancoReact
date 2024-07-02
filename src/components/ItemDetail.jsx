@@ -1,12 +1,38 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import { CartContext } from '../context/CartContext';
+import ItemCount from './ItemCount';
 
 
 const ItemDetail = ({ producto }) => {
 
 
-    const { agregarAlCarrito } = useContext(CartContext);
+    const { agregarAlCarrito, carrito, setCarrito } = useContext(CartContext);
 
+    const [cantidad, setCantidad] = useState(1);
+
+    const handleRestar = () => {
+        cantidad > 1 && setCantidad(cantidad - 1);
+    };
+
+    const handleSumar = () => {
+        cantidad < producto.stock && setCantidad(cantidad + 1);
+    };
+
+    // const hanldeAgregar = ()=>{
+    //     const itemAgregado = {...producto, cantidad};
+
+    //     const nuevoCarrito = [...carrito];
+    //     const estaEnCarrito = nuevoCarrito.find((item) => item.id === itemAgregado.id); 
+
+    //     if (estaEnCarrito){
+    //         estaEnCarrito.cantidad = estaEnCarrito.cantidad + cantidad;
+    //         setCarrito(nuevoCarrito);
+    //     }else{
+    //         setCarrito([...carrito, itemAgregado]);
+    //     }
+    // }
+
+    
 
 
     // const handleAgregar = () => {
@@ -49,6 +75,7 @@ const ItemDetail = ({ producto }) => {
                 <h2 className='h2vm'>{producto ? producto.precio : "cargando.."}</h2>
                 <h2 className='h2vm'>{producto ? producto.efecto : "cargando.."}</h2>
                 <button onClick={ ()=> agregarAlCarrito (producto) } className="boton-agregar" >Agregar al carrito</button>
+                <ItemCount cantidad = {cantidad} handleSumar ={handleSumar} handleRestar ={handleRestar}/>
             </div>
         </div>
     )
