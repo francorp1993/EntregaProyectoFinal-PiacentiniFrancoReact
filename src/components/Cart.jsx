@@ -12,20 +12,20 @@ const Cart = () => {
 
 
     return (
-        <div>
+        <div className='carrito-container'>
             {carrito.map((prod, index) => {
                 return (
                     <Fragment key={`${prod.id}-${index}`}>
-                        <h1> {prod.marca} {prod.modelo}: ${prod.precio} </h1>
-                        <button onClick={() => eliminarItem(prod)}>X</button>
+                        <h1 className='data-compra'> {prod.marca} {prod.modelo}: ${prod.precio} </h1>
+                        <button className='btn-cancelar-compra' onClick={() => eliminarItem(prod)}>X</button>
                     </Fragment>
                 )
             })}
             {
                 carrito.length > 0 ?
                     <>
-                        <h2>Total: ${totalCarrito()}</h2>
-                        <button onClick={vaciarCarrito}>Vaciar Carrito</button>
+                        <h2 className='h2-total'>Total: ${totalCarrito()}</h2>
+                        <button className='btn-vaciar carrito' onClick={vaciarCarrito}>Vaciar Carrito</button>
                         <Link className='btn-compra' to="/finalizar-compra">Finalizar compra</Link>
                     </> :
                     <h1>El carrito está vacío</h1>
