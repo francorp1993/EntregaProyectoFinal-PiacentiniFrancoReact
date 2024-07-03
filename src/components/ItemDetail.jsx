@@ -5,6 +5,7 @@ import ItemCount from './ItemCount';
 
 const ItemDetail = ({ producto }) => {
 
+console.log (producto.descripción);
 
     const { agregarAlCarrito, carrito, setCarrito } = useContext(CartContext);
 
@@ -72,8 +73,10 @@ const ItemDetail = ({ producto }) => {
                         <p>Cargando...</p>
                     )}
                 </div>
-                <h2 className='h2vm'>{producto ? producto.precio : "cargando.."}</h2>
-                <h2 className='h2vm'>{producto ? producto.efecto : "cargando.."}</h2>
+                <h2 className='h2vm'>$ {producto ? producto.precio : "cargando.."}</h2>
+                <p className='descripcion'>{producto ? producto.descripción : "cargando"}</p>
+                <p className='efectos'>{producto ? producto.efectos : "cargando.."}</p>
+                <p className='entradas'>{producto ? producto.entradas : "cargando.."}</p>
                 <button onClick={ ()=> agregarAlCarrito (producto) } className="boton-agregar" >Agregar al carrito</button>
                 <ItemCount cantidad = {cantidad} handleSumar ={handleSumar} handleRestar ={handleRestar}/>
             </div>
