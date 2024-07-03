@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
-import cartImage from '/Users/franco/Desktop/GitHub Repositorys (GitHub Desktop)/PreEntrega1PiacentiniReact/public/img/cart_106649.png';
+import cartImage from '/public/img/cart_106649.png';
 
 const CartWidget = ({}) => {
 
