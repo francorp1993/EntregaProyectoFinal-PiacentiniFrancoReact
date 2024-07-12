@@ -73,7 +73,7 @@ console.log (producto.descripción);
                         <p>Cargando...</p>
                     )}
                 </div>
-                <h2 className='h2vm'>$ {producto ? producto.precio : "cargando.."}</h2>
+                <h2 className='h2vm-precio'>$ {producto ? producto.precio : "cargando.."}</h2>
                 <p className='descripcion'>{producto ? producto.descripción : "cargando"}</p>
                 <p className='efectos'>Efectos: {producto ? producto.efectos : "cargando.."}</p>
                 <p className='entradas'>Entradas: {producto ? producto.entradas : "cargando.."}</p>

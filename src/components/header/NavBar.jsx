@@ -6,7 +6,7 @@ import categorias from '../../data/categorias.json';
 export const NavBar = () => {
 
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbar-custom">
             <div className="container-fluid">
                 <NavLink to="/"
                     className={({ isActive }) =>
@@ -57,7 +57,7 @@ export const NavBar = () => {
                             </ul>
                         </li>
                     </ul>
-                    <form className="d-flex" role="search">
+                    <form className="d-flex busqueda" role="search">
                         <input id="buscarInput" className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
                         <button className="btn btn-outline-secondary" type="submit">
                             <img src="/img/lupa-blanca.png" alt="Buscar" className="lupa" />
