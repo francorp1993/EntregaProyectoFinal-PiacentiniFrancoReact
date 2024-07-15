@@ -627,3 +627,42 @@ button {
         -1px 1px 0 #000,
         1px 1px 0 #000;
 }
+
+/* -----------------------------------------CHEKCOUT------------------------------------------------- */
+
+.pedido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nabla', sans-serif;
+    margin-top: 5rem;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.msj-pedido{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.665) ;
+
+}
+
+.msj-id{
+    color: rgb(255, 196, 0);
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.id-pedido{
+
+    font-size: 25px;
+    color: rgb(202, 0, 0);
+}
